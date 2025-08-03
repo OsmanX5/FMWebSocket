@@ -112,8 +112,8 @@ ws.on('connection', function connection(ws) {
   });
 
   ws.on('message', function incoming(message) {
-    //var decodeString = new String(message);
-    //console.log(decodeString);
+    var decodeString = new String(message);
+    console.log(decodeString);
 
     //check registration
     if(message.length === 4)
