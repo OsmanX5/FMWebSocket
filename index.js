@@ -113,7 +113,7 @@ ws.on('connection', function connection(ws) {
 
   ws.on('message', function incoming(message) {
     //var decodeString = new String(message);
-    console.log(`recived  ${message} with length: ${message.length} from ${wsid} and type: ${typeof message}  `);
+    //console.log(`recived  ${message} with length: ${message.length} from ${wsid} and type: ${typeof message}  `);
 
     //check registration
     if(message.length === 4)
